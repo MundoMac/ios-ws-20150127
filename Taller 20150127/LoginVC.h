@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  LoginVC.h
 //  Taller 20150127
 //
 //  Created by Diego Mazzone on 5/2/15.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface LoginVC : UIViewController
 
 @end
-

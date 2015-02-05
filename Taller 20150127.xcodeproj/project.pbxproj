@@ -9,11 +9,13 @@
 /* Begin PBXBuildFile section */
 		F1FF25E51A83375600D1EA64 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F1FF25E41A83375600D1EA64 /* main.m */; };
 		F1FF25E81A83375600D1EA64 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F1FF25E71A83375600D1EA64 /* AppDelegate.m */; };
-		F1FF25EB1A83375600D1EA64 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1FF25EA1A83375600D1EA64 /* ViewController.m */; };
 		F1FF25EE1A83375600D1EA64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1FF25EC1A83375600D1EA64 /* Main.storyboard */; };
 		F1FF25F01A83375600D1EA64 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1FF25EF1A83375600D1EA64 /* Images.xcassets */; };
 		F1FF25F31A83375600D1EA64 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1FF25F11A83375600D1EA64 /* LaunchScreen.xib */; };
 		F1FF25FF1A83375600D1EA64 /* Taller_20150127Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F1FF25FE1A83375600D1EA64 /* Taller_20150127Tests.m */; };
+		F1FF260A1A8337B900D1EA64 /* CountriesTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F1FF26091A8337B900D1EA64 /* CountriesTVC.m */; };
+		F1FF260D1A83383300D1EA64 /* Country.m in Sources */ = {isa = PBXBuildFile; fileRef = F1FF260C1A83383300D1EA64 /* Country.m */; };
+		F1FF26121A833DCA00D1EA64 /* LoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F1FF26111A833DCA00D1EA64 /* LoginVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +34,18 @@
 		F1FF25E41A83375600D1EA64 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F1FF25E61A83375600D1EA64 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F1FF25E71A83375600D1EA64 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F1FF25E91A83375600D1EA64 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F1FF25EA1A83375600D1EA64 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		F1FF25ED1A83375600D1EA64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F1FF25EF1A83375600D1EA64 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F1FF25F21A83375600D1EA64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		F1FF25F81A83375600D1EA64 /* Taller 20150127Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Taller 20150127Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1FF25FD1A83375600D1EA64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F1FF25FE1A83375600D1EA64 /* Taller_20150127Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Taller_20150127Tests.m; sourceTree = "<group>"; };
+		F1FF26081A8337B900D1EA64 /* CountriesTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountriesTVC.h; sourceTree = "<group>"; };
+		F1FF26091A8337B900D1EA64 /* CountriesTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountriesTVC.m; sourceTree = "<group>"; };
+		F1FF260B1A83383300D1EA64 /* Country.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Country.h; sourceTree = "<group>"; };
+		F1FF260C1A83383300D1EA64 /* Country.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Country.m; sourceTree = "<group>"; };
+		F1FF26101A833DCA00D1EA64 /* LoginVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginVC.h; sourceTree = "<group>"; };
+		F1FF26111A833DCA00D1EA64 /* LoginVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,10 +87,8 @@
 		F1FF25E11A83375600D1EA64 /* Taller 20150127 */ = {
 			isa = PBXGroup;
 			children = (
-				F1FF25E61A83375600D1EA64 /* AppDelegate.h */,
-				F1FF25E71A83375600D1EA64 /* AppDelegate.m */,
-				F1FF25E91A83375600D1EA64 /* ViewController.h */,
-				F1FF25EA1A83375600D1EA64 /* ViewController.m */,
+				F1FF260F1A83385500D1EA64 /* Controller */,
+				F1FF260E1A83384F00D1EA64 /* Model */,
 				F1FF25EC1A83375600D1EA64 /* Main.storyboard */,
 				F1FF25EF1A83375600D1EA64 /* Images.xcassets */,
 				F1FF25F11A83375600D1EA64 /* LaunchScreen.xib */,
@@ -96,6 +100,8 @@
 		F1FF25E21A83375600D1EA64 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F1FF25E61A83375600D1EA64 /* AppDelegate.h */,
+				F1FF25E71A83375600D1EA64 /* AppDelegate.m */,
 				F1FF25E31A83375600D1EA64 /* Info.plist */,
 				F1FF25E41A83375600D1EA64 /* main.m */,
 			);
@@ -117,6 +123,26 @@
 				F1FF25FD1A83375600D1EA64 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F1FF260E1A83384F00D1EA64 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F1FF260B1A83383300D1EA64 /* Country.h */,
+				F1FF260C1A83383300D1EA64 /* Country.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		F1FF260F1A83385500D1EA64 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F1FF26101A833DCA00D1EA64 /* LoginVC.h */,
+				F1FF26111A833DCA00D1EA64 /* LoginVC.m */,
+				F1FF26081A8337B900D1EA64 /* CountriesTVC.h */,
+				F1FF26091A8337B900D1EA64 /* CountriesTVC.m */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,9 +245,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F1FF25EB1A83375600D1EA64 /* ViewController.m in Sources */,
 				F1FF25E81A83375600D1EA64 /* AppDelegate.m in Sources */,
+				F1FF260A1A8337B900D1EA64 /* CountriesTVC.m in Sources */,
+				F1FF26121A833DCA00D1EA64 /* LoginVC.m in Sources */,
 				F1FF25E51A83375600D1EA64 /* main.m in Sources */,
+				F1FF260D1A83383300D1EA64 /* Country.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
